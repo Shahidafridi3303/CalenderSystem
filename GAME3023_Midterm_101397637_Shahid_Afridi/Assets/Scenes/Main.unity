@@ -122,11 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1424450136 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2383115451339927367, guid: a499c6fe5703d9f469d5832d2959df4a, type: 3}
-  m_PrefabInstance: {fileID: 6695329374332209210}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2112834499 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3938018011812356881, guid: 5f09ba5d5baf8b142a7f3b879d15e8d9, type: 3}
@@ -215,21 +210,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 889965555414993039, guid: d9460de534bef2b4994224e797d5b717, type: 3}
-      propertyPath: hour
-      value: 5
+    - target: {fileID: 43747454258453408, guid: d9460de534bef2b4994224e797d5b717, type: 3}
+      propertyPath: m_margin.x
+      value: 33.828903
       objectReference: {fileID: 0}
-    - target: {fileID: 889965555414993039, guid: d9460de534bef2b4994224e797d5b717, type: 3}
-      propertyPath: year
-      value: 21
+    - target: {fileID: 43747454258453408, guid: d9460de534bef2b4994224e797d5b717, type: 3}
+      propertyPath: m_margin.z
+      value: -262.67065
       objectReference: {fileID: 0}
-    - target: {fileID: 889965555414993039, guid: d9460de534bef2b4994224e797d5b717, type: 3}
-      propertyPath: season
+    - target: {fileID: 43747454258453408, guid: d9460de534bef2b4994224e797d5b717, type: 3}
+      propertyPath: m_HorizontalAlignment
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 889965555414993039, guid: d9460de534bef2b4994224e797d5b717, type: 3}
-      propertyPath: dateInMonth
-      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 889965555414993039, guid: d9460de534bef2b4994224e797d5b717, type: 3}
       propertyPath: TimeBetweenTicks
@@ -279,13 +270,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3101894218943017004, guid: d9460de534bef2b4994224e797d5b717, type: 3}
-      propertyPath: _rain
-      value: 
-      objectReference: {fileID: 1424450136}
     - target: {fileID: 3171784082019809520, guid: d9460de534bef2b4994224e797d5b717, type: 3}
       propertyPath: m_Name
       value: CalenderSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500709983172097603, guid: d9460de534bef2b4994224e797d5b717, type: 3}
+      propertyPath: m_margin.x
+      value: 114.59291
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500709983172097603, guid: d9460de534bef2b4994224e797d5b717, type: 3}
+      propertyPath: m_margin.z
+      value: -217.71521
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500709983172097603, guid: d9460de534bef2b4994224e797d5b717, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8084713501710845101, guid: d9460de534bef2b4994224e797d5b717, type: 3}
       propertyPath: sunlight
